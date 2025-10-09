@@ -15,4 +15,3 @@ jobs:
       - run: python nightly_match.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}
-EOF
