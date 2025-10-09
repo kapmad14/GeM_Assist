@@ -1,0 +1,4 @@
+sku,description,hsn,min_price,max_price,states_deliverable
+ITEM-001,Stainless-steel bench 304 grade,73269099,15000,25000,"MH, KA, TN"
+ITEM-002,Executive revolving chair,94013000,8000,12000,"DL, HR, UP"
+ITEM-003,LED panel light 18W,85395000,600,900,"All India"
