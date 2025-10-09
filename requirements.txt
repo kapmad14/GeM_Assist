@@ -2,3 +2,5 @@ streamlit
 openai
 pandas
 pydanticsendgrid
+requests
+beautifulsoup4
