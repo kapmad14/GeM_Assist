@@ -10,4 +10,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: echo "workflow alive"
+      - run: python nightly_match.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}
