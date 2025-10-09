@@ -1,6 +1,9 @@
 streamlit
 openai
 pandas
-pydanticsendgrid
+pydantic
+sendgrid
 requests
 beautifulsoup4
+scikit-learn
+joblib
