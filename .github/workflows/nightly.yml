@@ -13,4 +13,4 @@ jobs:
       - run: python nightly_match.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}
-          SENDGRID_KEY: ${{ secrets.SENDGRID_KEY }}
+          GMAIL_APP_PW: ${{ secrets.GMAIL_APP_PW }}
