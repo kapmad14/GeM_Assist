@@ -14,4 +14,4 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python nightly_match.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_KEY }}      - run: echo 'workflow loaded'
