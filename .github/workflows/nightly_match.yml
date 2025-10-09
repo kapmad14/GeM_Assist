@@ -1,8 +1,8 @@
 name: Nightly Match & Digest
 on:
   schedule:
-    - cron: '30 2 * * *'   # 02:30 IST every day
-  workflow_dispatch:       # manual trigger button
+    - cron: '30 2 * * *'
+  workflow_dispatch:
 jobs:
   match:
     runs-on: ubuntu-latest
